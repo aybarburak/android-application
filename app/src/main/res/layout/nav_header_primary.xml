@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/header"
+    android:paddingBottom="@dimen/app_vertical_margin"
+    android:paddingLeft="@dimen/app_horizontal_margin"
+    android:paddingRight="@dimen/app_horizontal_margin"
+    android:paddingTop="@dimen/app_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark" android:orientation="vertical"
+    android:gravity="bottom">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"
+        android:paddingTop="@dimen/nav_header_profile"
+        android:src="@android:drawable/sym_def_app_icon" android:id="@+id/nav_image" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing" android:text="Android Studio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:id="@+id/nav_fullname" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="android.studio@android.com" android:id="@+id/nav_email" />
+
+</LinearLayout>

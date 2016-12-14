@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/announcement" android:icon="@drawable/announcement"
+            android:title="@string/menu_announcements" />
+        <item android:id="@+id/map" android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/menu_map" />
+        <item android:id="@+id/result" android:icon="@drawable/prize"
+            android:title="@string/menu_result" />
+    </group>
+
+    <item android:title="@string/menu_account">
+        <menu>
+            <item android:id="@+id/edit_profile" android:icon="@drawable/edit"
+                android:title="@string/menu_edit_profile" />
+            <item android:id="@+id/robot" android:icon="@drawable/robot"
+                android:title="@string/menu_list_robot" />
+            <item android:id="@+id/logout" android:icon="@drawable/logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>

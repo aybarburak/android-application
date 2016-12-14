@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">MUFERobotics</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Menu elements -->
+    <string name="menu_login">Giriş</string>
+    <string name="menu_announcements">Duyurular</string>
+    <string name="menu_map">Harita</string>
+    <string name="menu_account">Hesap</string>
+    <string name="menu_edit_profile">Profili Düzenle</string>
+    <string name="menu_list_robot">Robotlarım</string>
+    <string name="menu_logout">Çıkış</string>
+    <string name="menu_result">Sonuçlar</string>
+
+    <string name="loading">Yükleniyor</string>
+
+    <!-- Edit Profile Activity -->
+    <string name="activity_edit_update">Güncelleniyor</string>
+    <string name="activity_edit_updated">Güncellendi</string>
+    <string name="activity_edit_update_failed">Güncelleme Başarısız</string>
+    <string name="activity_edit_first_name">İsim</string>
+    <string name="activity_edit_last_name">Soyisim</string>
+    <string name="activity_edit_phone">Telefon Numarası</string>
+    <string name="activity_edit_academy_information">Okul Adı</string>
+    <string name="activity_edit_save_btn">Kaydet</string>
+
+    <!-- Failed messages -->
+    <string name="character_failed_10">Karakter sayısı 4 ile 10 arasında olmalıdır!</string>
+    <string name="character_failed_13">Karakter sayısı 4 ile 13 arasında olmalıdır!</string>
+    <string name="character_failed_30">Karakter sayısı 4 ile 30 arasında olmalıdır!</string>
+    <string name="character_failed_40">Karakter sayısı 4 ile 40 arasında olmalıdır!</string>
+    <string name="email_failed">Geçerli bir email adresi giriniz!</string>
+
+    <!-- Login Activity -->
+    <string name="authenticate">Kimlik Doğrulanıyor...</string>
+    <string name="activity_login_invalid_pass">Geçersiz Şifre</string>
+    <string name="activity_login_invalid_email">Geçersiz Email</string>
+    <string name="activity_login_failed">Oturum Açma Başarısız</string>
+    <string name="activity_login_email">Email</string>
+    <string name="activity_login_password">Şifre</string>
+    <string name="activity_login_btn">Giriş</string>
+
+    <!-- Maps Activity -->
+    <string name="activity_maps_welcome">Marmara Robot Olimpiyatlarına Hoşgeldiniz</string>
+    <string name="activity_maps_uzumcu">İbrahim Üzümcü Konferans Salonu</string>
+    <string name="activity_maps_sport">Spor Salonu</string>
+    <string name="activity_maps_faculty">Atatürk Eğitim Fakültesi</string>
+
+    <!-- Robot Activiy -->
+    <string name="activity_robot_listing">Robotlar Listeleniyor</string>
+
+    <!-- Splash Activity -->
+    <string name="activity_splash">Uluslararası Marmara Robot Olimpiyatları</string>
+
+    <!--Category names-->
+    <string name="robot_istanbul">İstanbul\'un Fethi</string>
+    <string name="robot_fire">Ateşli Labirent</string>
+    <string name="robot_tenis">Robotenis</string>
+    <string name="robot_color">Renkseçen</string>
+    <string name="robot_sumo">Mini Sumo</string>
+    <string name="robot_flag">Bayrak Yarışı</string>
+    <string name="robot_judges">Jüri Özel Ödülü</string>
+    <string name="robot_free">Serbest Kategori</string>
+
+    <string name="robot_seminar">Seminer</string>
+    <string name="robot_seminar_bimeks">Seminer - Bimeks</string>
+    <string name="robot_seminar_bilge">Seminer - BilgeAdam</string>
+    <string name="robot_seminar_pavotek">Seminer - Pavotek</string>
+    <string name="robot_opening">Açılış</string>
+    <string name="robot_break">Öğle Arası</string>
+    <string name="robot_prize">Ödül Töreni</string>
+
+    <string name="robot_saturday">27 Şubat Cumartesi</string>
+    <string name="robot_sunday">28 Şubat Pazar</string>
+
+    <string name="result_round">Tur</string>
+    <string name="result_winner">Kazanan</string>
+    <string name="result_defeated">Kaybeden</string>
+    <string name="result_robot_name">Robot İsmi</string>
+    <string name="result_points">Puan</string>
+    <string name="result_time">Süre</string>
+
+
+</resources>

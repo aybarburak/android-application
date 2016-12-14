@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listItemLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="1dp"
+    android:background="#f6f6f6"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/round"
+        android:layout_width="@dimen/result_tab_column_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp"
+        tools:ignore="MissingPrefix" />
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/round"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:textColor="@color/result_color_turquaz"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/defeated"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/winner"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:textColor="#929494"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+</LinearLayout>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">MUFERobotics</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Menu elements -->
+    <string name="menu_login">Login</string>
+    <string name="menu_announcements">Announcements</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_edit_profile">Edit Profile</string>
+    <string name="menu_list_robot">My Robots</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_result">Results</string>
+
+
+    <string name="loading">Loading</string>
+
+    <!-- Edit Profile Activity -->
+    <string name="activity_edit_update">Updating</string>
+    <string name="activity_edit_updated">Updated</string>
+    <string name="activity_edit_update_failed">Update Failed</string>
+    <string name="activity_edit_first_name">First Name</string>
+    <string name="activity_edit_last_name">Last Name</string>
+    <string name="activity_edit_phone">Phone</string>
+    <string name="activity_edit_academy_information">Academy Information</string>
+    <string name="activity_edit_save_btn">Save</string>
+
+
+
+    <!-- Failed messages -->
+    <string name="character_failed_10">Between 4 and 10 alphanumeric characters!</string>
+    <string name="character_failed_13">Between 4 and 13 alphanumeric characters!</string>
+    <string name="character_failed_30">Between 4 and 30 alphanumeric characters!</string>
+    <string name="character_failed_40">Between 4 and 40 alphanumeric characters!</string>
+    <string name="email_failed">Enter a valid email address!</string>
+
+    <!-- Login Activity -->
+    <string name="authenticate">Authenticating...</string>
+    <string name="activity_login_invalid_pass">Invalid Password</string>
+    <string name="activity_login_invalid_email">Invalid Email</string>
+    <string name="activity_login_failed">Login Failed</string>
+    <string name="activity_login_email">Email</string>
+    <string name="activity_login_password">Password</string>
+    <string name="activity_login_btn">Login</string>
+
+    <!-- Maps Activity -->
+    <string name="activity_maps_welcome">Welcome to Marmara Robot Olympics</string>
+    <string name="activity_maps_uzumcu">Ibrahim Uzumcu Conference Room</string>
+    <string name="activity_maps_sport">Sport Center</string>
+    <string name="activity_maps_faculty">Ataturk Faculty of Education</string>
+
+    <string name="nul"></string>
+
+    <!-- Robot Activiy -->
+    <string name="activity_robot_listing">Loading Robots</string>
+
+    <!-- Splash Activity -->
+    <string name="activity_splash">International Marmara Robot Olympics</string>
+
+    <!--Category names-->
+    <string name="robot_istanbul">The Conquest of Istanbul</string>
+    <string name="robot_fire">Fiery Maze</string>
+    <string name="robot_tenis">Robotennis</string>
+    <string name="robot_color">Color Selecting</string>
+    <string name="robot_sumo">Mini Sumo</string>
+    <string name="robot_flag">Flag Race</string>
+    <string name="robot_judges">Judges\' Special Reward</string>
+    <string name="robot_free">Free Style</string>
+
+
+    <string name="robot_seminar">Seminar</string>
+    <string name="robot_seminar_bimeks">Seminar - Bimeks</string>
+    <string name="robot_seminar_bilge">Seminar - BilgeAdam</string>
+    <string name="robot_seminar_pavotek">Seminar - Pavotek</string>
+    <string name="robot_opening">Opening</string>
+    <string name="robot_break">Lunch Time</string>
+    <string name="robot_prize">Prize-Giving Ceremony</string>
+
+    <string name="robot_saturday">27 February, Saturday</string>
+    <string name="robot_sunday">28 February, Sunday</string>
+
+    <string name="result_round">Round</string>
+    <string name="result_winner">Winner</string>
+    <string name="result_defeated">Defeated</string>
+    <string name="result_robot_name">Robot Name</string>
+    <string name="result_points">Points</string>
+    <string name="result_time">Time</string>
+
+</resources>
